@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloody Blinking Eye</title>
+    
+    <!-- Import Horror Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Fullscreen Horror Background */
+        body {
+            height: 100vh;
+            overflow: hidden;
+            background: url('https://i.pinimg.com/originals/b5/66/af/b566af8bab8557bafb92a77717ab70f7.gif') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Horror Text Styling */
+        .text, .mission-text {
+            font-size: 50px;
+            font-weight: bold;
+            color: darkred;
+            font-family: 'Creepster', cursive;
+            text-shadow: 4px 4px 10px rgba(139, 0, 0, 0.8);
+            margin-bottom: 20px;
+        }
+
+        .mission-text {
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        /* Bloody Eye Box */
+        .eye-box {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px red;
+            border: 3px solid red;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .eye-gif {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid darkred;
+            box-shadow: 0 0 15px darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="text">YOU CAN RUN BUT YOU CAN'T HIDE</div>
+    
+    <div class="eye-box">
+        <img src="https://media1.tenor.com/m/NCBykTIvLo4AAAAd/bloody-eye-blink-blood-dripping-eye.gif" 
+             alt="Bloody Blinking Eye" class="eye-gif">
+    </div>
+    
+    <div class="mission-text">YOU NEED TO COMPLETE THE MISSION TO CLAIM THE MONEY</div>
+</body>
+</html>
